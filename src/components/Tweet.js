@@ -14,7 +14,7 @@ class Tweet extends React.Component {
     }
 
     handleLike = (e) => {
-        e.preventDefault
+        e.preventDefault()
 
         const { tweetId, tweet, authedUser } = this.props
         const { hasLiked } = tweet
